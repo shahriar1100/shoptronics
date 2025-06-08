@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts end -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- header part start  -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand mainLogo" href="#"
+            ><img src="images/logo.png" alt="logo.png"
+          /></a>
+          <nav class="navbar m-auto searchInput">
+            <form class="d-flex" role="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn search-button" type="submit">Search</button>
+            </form>
+          </nav>
+          <div class="iconPart ms-auto">
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav bottomMenu">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  ><i class="fa-solid fa-bars-staggered"></i>
+                  Departments
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header part end  -->
+    <!-- Banner Start -->
+    <section id="shop-banner">
+      <div class="container">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- Banner End -->
+    <!-- shop section start -->
+    <section id="shop">
+      <div class="container-fluid shopPart">
+        <div class="row">
+          <!-- Left Sidebar Start -->
+          <div class="col-lg-3" id="shop-section">
+            <div class="sidebar">
+              <h2>Categories</h2>
+              <ul>
+                <li>
+                  <span>
+                    Computer
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </span>
+
+                  <ul>
+                    <li>
+                      <input type="text" placeholder="Search" />
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </li>
+                    <li>View All <span>30</span></li>
+                    <li>Desktop <span>10</span></li>
+                    <li>Laptop <span>10</span></li>
+                    <li>Mother Board <span>10</span></li>
+                    <li>Keyboard <span>10</span></li>
+                    <li>Mouse <span>10</span></li>
+                  </ul>
+                </li>
+                <li>
+                  <span>Mobile <i class="fa-solid fa-angle-down"></i></span>
+                </li>
+                <li>
+                  <span>Head Phone <i class="fa-solid fa-angle-down"></i></span>
+                </li>
+                <li>
+                  <span>Speaker <i class="fa-solid fa-angle-down"></i></span>
+                </li>
+                <li>
+                  <span>Camera <i class="fa-solid fa-angle-down"></i></span>
+                </li>
+              </ul>
+              <h2>Price Range</h2>
+
+              <div class="productSizePart">
+                <h2>Size</h2>
+                <form class="size" action="#">
+                  <div class="checkbox">
+                    <input id="Xtra" type="checkbox" />
+                    <label for="Xtra">Xtra Large</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="Large" type="checkbox" />
+                    <label for="Large">Large</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="Small" type="checkbox" />
+                    <label for="Small">Small</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="tramall" type="checkbox" />
+                    <label for="tramall">Xtra Small</label>
+                  </div>
+                </form>
+              </div>
+
+              <div class="productBrandPart">
+                <h2>Brand</h2>
+                <form class="size" action="#">
+                  <div class="checkbox">
+                    <input id="Apple" type="checkbox" />
+                    <label for="Apple">Apple</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="Samsung" type="checkbox" />
+                    <label for="Samsung">Samsung</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="Realme" type="checkbox" />
+                    <label for="Realme">Realme</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="Nokia" type="checkbox" />
+                    <label for="Nokia">Nokia</label>
+                  </div>
+                </form>
+              </div>
+
+              <div class="ratingShopPage">
+                <h2>Rating</h2>
+                <div class="ratingShopStar">
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star-half"></i>
+                </div>
+                <div class="ratingShopStar">
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star-half"></i>
+                  <span>And Up</span>
+                </div>
+                <div class="ratingShopStar">
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star-half"></i>
+                  <span>And Up</span>
+                </div>
+                <div class="ratingShopStar">
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star-half"></i>
+                  <span>And Up</span>
+                </div>
+                <div class="ratingShopStar">
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star"></i>
+                  <i style="color: #ffb000" class="fa fa-star-half"></i>
+                  <span>And Up</span>
+                </div>
+              </div>
+
+              <div class="ColorFamilyPart">
+                <h2>Color Family</h2>
+                <form class="size" action="#">
+                  <div class="checkbox">
+                    <input id="Red" type="checkbox" />
+                    <label for="Red">Red</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="Yellow" type="checkbox" />
+                    <label for="Yellow">Yellow</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="Blue" type="checkbox" />
+                    <label for="Blue">Blue</label>
+                  </div>
+                  <div class="checkbox">
+                    <input id="White" type="checkbox" />
+                    <label for="White">White</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- Left Sidebar End -->
+          </div>
+          <div class="col-lg-9">
+            <section id="trendProduct">
+                <div class="catalog">
+              <div class="top-view-control">
+                <div class="d-flex">
+                  <span> 1/4</span>
+                </div>
+                <div class="d-flex">
+                  <div>
+                    <span>Sort by: </span>
+                    <select name="sort" id="sort">
+                      <option value="1">High to Low</option>
+                      <option value="2">Log to High</option>
+                      <option value="rating">Rating</option>
+                      <option value="date">Date</option>
+                    </select>
+                  </div>
+                  <span
+                    >&nbsp; View: <i class="fa fa-th" aria-hidden="true"></i>
+                    <i class="fa fa-list" aria-hidden="true"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+              <div class="trendProductPart container categoriesText">
+                <h5>Categories</h5>
+                <h3>Top Categories</h3>
+                <div class="bestSellingPartItemPart margin-shop-page">
+                  <div class="bestSellingPartItem HoverOne">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                  <div class="bestSellingPartItem HoverTwo">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                  <div class="bestSellingPartItem HoverThree">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="bestSellingPartItemPart margin-shop-page">
+                  <div class="bestSellingPartItem HoverOne">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                  <div class="bestSellingPartItem HoverTwo">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                  <div class="bestSellingPartItem HoverThree">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="bestSellingPartItemPart margin-shop-page">
+                  <div class="bestSellingPartItem HoverOne">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                  <div class="bestSellingPartItem HoverTwo">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                  <div class="bestSellingPartItem HoverThree">
+                    <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+                    <div class="trendProductStar">
+                      <p>Head Phone</p>
+                    </div>
+                    <h6>Smart Digital Watch</h6>
+                    <div class="bestSellingPrice">
+                      <h5>$29.99</h5>
+                      <h5><del>$29.99</del></h5>
+                      <div class="bestSelliingStar">
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star"></i>
+                        <i style="color: #ffb000" class="fa fa-star-half"></i>
+                      </div>
+                      <p>(96)</p>
+                    </div>
+                    <div class="bestSellingHoverPart">
+                      <a href="#"
+                        ><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- shop section end -->
+     <!-- footer  start -->
+    <footer id="footer">
+      <div class="container Copyright">
+        <div class="footerPart row">
+        <div class="footerPartItem col-lg-3">
+          <h2>Shop<span>tronics</span></h2>
+          <p>
+            Elegant pink origami design three dimensional view and decoration
+            co-exist. Great for adding a decorative touch to any room’s decor.
+          </p>
+        </div>
+        <div class="footerPartItem col-lg-3">
+          <h3>Information</span></h3>
+          <h6>
+            Custom Service <br>FAQs <br>Ordering Tracking <br>Contacts <br>Events
+          </h6>
+        </div>
+        <div class="footerPartItem col-lg-3">
+          <h3>Information</span></h3>
+          <h6>
+            Custom Service <br>
+            FAQs <br>
+            Ordering Tracking <br>
+            Contacts <br>
+            Events
+          </h6>
+        </div>
+        <div class="footerPartItem col-lg-3">
+          <h3>Information</span></h3>
+         <p>Get on the list and get 10% off <br> your first order!</p>
+         <form action="#">
+          <input class="email" type="email" placeholder="Your Email">
+          <input class="button" type="button" value="Subscribe Now">
+         </form>
+        </div>
+      </div>
+      <p>Copyright 2025 ©Ninja. All rights reserved. Powered by Ninja.</p>
+      </div>
+    </footer>
+    <!-- footer  end -->
+  </body>
+</html>
+

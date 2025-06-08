@@ -1,0 +1,992 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+
+  
+  /* music part start */
+
+  
+  /* music part end */
+
+  /* header part start */
+  #trendProduct{
+    width: 100%;
+  }
+  .bestSellingPrice{
+    padding: 0;
+    padding-right: 10px;
+  }
+.bestSellingPartItem h6 {
+	color: #181414;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0;
+    line-height: 20px;
+}
+.bestSellingPartItem img{
+    width: 90%;
+}
+.bestSellingPartItemPart{
+    gap: 1px;
+}
+.bestSelliingStar i{
+    font-size: 12px;
+}
+
+.bestSellingHoverPart a {
+	padding: 10px 40px;
+	text-decoration: none;
+	color: #fff;
+	background: #3c1ff4;
+  font-family: 10px
+}
+
+  /* header part end */
+
+  /* header part start */
+.Copyright > p {
+	text-align: center;
+    line-height: 20px;
+    padding: 20px 0;
+}
+  /* header part end */
+
+  /* header part start */
+  .footerPartItem p {
+	color: rgba(0, 0, 0, 0.617);
+	font-weight: 200;
+	font-size: 17px;
+	width: 100%;
+	line-height: 25px;
+}
+.Copyright > p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footerPart {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3b1ff436;
+}
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* common css start */
+  .w50 {
+    width: 50% !important;
+  }
+  .col-es-4 {
+    width: 33%;
+  }
+  .col-es-6 {
+    width: 50%;
+  }
+  /* common css end */
+
+  /* header part start */
+  .mainLogo{
+    width: 100%;
+    text-align: center;
+  }
+.form-control {
+  width: 450px;
+  border: 1px solid #6899f4;
+  padding-left: 60px;
+}
+.search-button {
+  background: #3c1ff4;
+  padding: 17px 30px;
+  color: #ffffff;
+  margin-left: -12px;
+  border-radius: 0;
+}
+.iconPart{
+    text-align: right;
+    margin-top: 10px;
+    width: 100%;
+}
+.navbar-toggler {
+	margin-top: -50px;
+}
+  /* header part end */
+
+  /* banner part start */
+  .bannerText h4 {
+    color: #3c1ff4;
+    font-size: 12px;
+  }
+  .bannerText a {
+    color: #000000;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+  .bannerStar {
+    margin-top: -7px;
+  }
+  .bannerStar i {
+    font-size: 12px;
+  }
+
+  .bannerText h1 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .bannerText {
+    position: absolute;
+    color: black;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 90%;
+    text-align: left;
+  }
+  .carousel-item {
+    height: 280px;
+  }
+  .heading {
+    width: 80%;
+  }
+  /* banner part end */
+
+  /* Categories part start */
+  .categoriesItem svg {
+    width: 80%;
+    height: 100%;
+  }
+  .categoriesItem {
+    padding: 10px 1px;
+  }
+
+  /* Categories part end */
+
+  /* trending product part start */
+  .trendProductPartItemPart {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+  }
+  .trendProductPartItem img{
+    width: 80%;
+  }
+  .trendProductStar {
+	display: flex;
+	align-items: center;
+	padding-left: 0px;
+}
+.trendProductPartItem h6 {
+	color: rgba(24, 20, 20, 0.741);
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0px;
+    width: 150px;
+}
+.trendProductPrice {
+	display: flex;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+  .trendProductHoverPart{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 20%;
+    top: 300px;
+  }
+  .trendProductHoverPart a{
+    padding: 8px 15px;
+    margin: 0;
+    font-size: 16px;
+  }
+  .trendProductHoverPart i{
+    margin: 0;
+    font-size: 14px;
+    padding: 7px 7px;
+  }
+  .trendProductHoverPart {
+  visibility: visible;
+  opacity: 1;
+}
+.trendProductStar{
+    margin-top: 15px;
+}
+  /* trending product part end */
+
+  /* music part start */
+
+  
+  /* music part end */
+
+  /* header part start */
+  #trendProduct{
+    width: 100%;
+  }
+  .bestSellingPrice{
+    padding: 0;
+    padding-right: 10px;
+  }
+.bestSellingPartItem h6 {
+	color: #181414;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0;
+    line-height: 20px;
+}
+.bestSellingPartItem img{
+    width: 90%;
+}
+.bestSellingPartItemPart{
+    gap: 1px;
+}
+.bestSelliingStar i{
+    font-size: 12px;
+}
+.bestSellingHoverPart {
+	visibility: visible;
+	opacity: 1;
+}
+.bestSellingHoverPart a {
+	padding: 10px 40px;
+	text-decoration: none;
+	color: #fff;
+	background: #3c1ff4;
+  font-family: 10px
+}
+
+  /* header part end */
+
+  /* header part start */
+.Copyright > p {
+	text-align: center;
+    line-height: 20px;
+    padding: 20px 0;
+}
+  /* header part end */
+
+  /* header part start */
+  .footerPartItem p {
+	color: rgba(0, 0, 0, 0.617);
+	font-weight: 200;
+	font-size: 17px;
+	width: 100%;
+	line-height: 25px;
+}
+.Copyright > p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footerPart {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3b1ff436;
+}
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+     /* common css start */
+  .w50 {
+    width: 50% !important;
+  }
+  .col-es-4 {
+    width: 33%;
+  }
+  .col-es-6 {
+    width: 50%;
+  }
+  /* common css end */
+
+  /* header part start */
+  .mainLogo{
+    width: 100%;
+    text-align: center;
+  }
+.form-control {
+  width: 600px;
+  border: 1px solid #6899f4;
+  padding-left: 60px;
+}
+.search-button {
+  background: #3c1ff4;
+  padding: 17px 30px;
+  color: #ffffff;
+  margin-left: -12px;
+  border-radius: 0;
+}
+.iconPart{
+    text-align: right;
+    margin-top: 10px;
+    width: 100%;
+}
+.navbar-toggler {
+	margin-top: -50px;
+}
+  /* header part end */
+
+  /* banner part start */
+  .bannerText h4 {
+    color: #3c1ff4;
+    font-size: 12px;
+  }
+  .bannerText a {
+    color: #000000;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+  .bannerStar {
+    margin-top: -7px;
+  }
+  .bannerStar i {
+    font-size: 12px;
+  }
+
+  .bannerText h1 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .bannerText {
+    position: absolute;
+    color: black;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 90%;
+    text-align: left;
+  }
+  .carousel-item {
+    height: 280px;
+  }
+  .heading {
+    width: 80%;
+  }
+  /* banner part end */
+
+  /* Categories part start */
+  .categoriesItem svg {
+    width: 80%;
+    height: 100%;
+  }
+  .categoriesItem {
+    padding: 10px 1px;
+  }
+
+  /* Categories part end */
+
+  /* trending product part start */
+  .trendProductPartItemPart {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+  }
+  .trendProductPartItem img{
+    width: 80%;
+  }
+  .trendProductStar {
+	display: flex;
+	align-items: center;
+	padding-left: 0px;
+}
+.trendProductPartItem h6 {
+	color: rgba(24, 20, 20, 0.741);
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0px;
+    width: 150px;
+}
+.trendProductPrice {
+	display: flex;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+  .trendProductHoverPart{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 15%;
+    top: 220px;
+  }
+  .trendProductHoverPart a{
+    padding: 8px 10px;
+    margin: 0;
+    font-size: 16px;
+  }
+  .trendProductHoverPart i{
+    margin: 0;
+    font-size: 14px;
+    padding: 7px 7px;
+  }
+  .trendProductHoverPart {
+  visibility: visible;
+  opacity: 1;
+}
+.trendProductStar{
+    margin-top: 15px;
+}
+  /* trending product part end */
+
+  /* music part start */
+
+  .musicPart{
+    padding: 0;
+  }
+  .musicText {
+  color: black;
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+  text-align: center;
+}
+.btnn{
+    margin: 0 290px;
+}
+.musicText h1{
+    font-size: 34px;
+    padding: 0;
+    line-height: 30px;
+    font-weight: 700;
+}
+.musicText h4{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.headphoneImage{
+    width: 55%;
+    margin: 0 auto;
+    margin-left: 160px;
+}
+  /* music part end */
+
+  /* header part start */
+  #trendProduct{
+    width: 100%;
+  }
+  .bestSellingPrice{
+    padding: 0;
+    padding-right: 10px;
+  }
+.bestSellingPartItem h6 {
+	color: #181414;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0;
+    line-height: 20px;
+}
+.bestSellingPartItem img{
+    width: 90%;
+}
+.bestSellingPartItemPart{
+    gap: 1px;
+}
+.bestSelliingStar i{
+    font-size: 12px;
+}
+.bestSellingHoverPart {
+	visibility: visible;
+	opacity: 1;
+}
+.bestSellingHoverPart a {
+	padding: 10px 25px;
+	text-decoration: none;
+	color: #fff;
+	background: #3c1ff4;
+  font-family: 10px
+}
+  /* header part end */
+
+  /* header part start */
+.Copyright > p {
+	text-align: center;
+    line-height: 20px;
+    padding: 20px 0;
+}
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* common css start */
+  .w50 {
+    width: 50% !important;
+  }
+  .col-es-4 {
+    width: 33%;
+  }
+  .col-es-6 {
+    width: 50%;
+  }
+  /* common css end */
+
+  /* header part start */
+  .mainLogo{
+    width: 100%;
+    text-align: center;
+  }
+.form-control {
+  width: 100%;
+  border: 1px solid #6899f4;
+  padding-left: 60px;
+}
+.search-button {
+  background: #3c1ff4;
+  padding: 17px 30px;
+  color: #ffffff;
+  margin-left: -12px;
+  border-radius: 0;
+}
+.iconPart{
+    text-align: right;
+    margin-top: 10px;
+    width: 100%;
+}
+.navbar-toggler {
+	margin-top: -50px;
+}
+  /* header part end */
+
+  /* banner part start */
+  .bannerText h4 {
+    color: #3c1ff4;
+    font-size: 12px;
+  }
+  .bannerText a {
+    color: #000000;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+  .bannerStar {
+    margin-top: -7px;
+  }
+  .bannerStar i {
+    font-size: 12px;
+  }
+
+  .bannerText h1 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .bannerText {
+    position: absolute;
+    color: black;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 90%;
+    text-align: left;
+  }
+  .carousel-item {
+    height: 280px;
+  }
+  .heading {
+    width: 80%;
+  }
+  /* banner part end */
+
+  /* Categories part start */
+  .categoriesItem svg {
+    width: 80%;
+    height: 100%;
+  }
+  .categoriesItem {
+    padding: 10px 1px;
+  }
+
+  /* Categories part end */
+
+  /* trending product part start */
+  .trendProductPartItemPart {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+  }
+  .trendProductPartItem img{
+    width: 80%;
+  }
+  .trendProductStar {
+	display: flex;
+	align-items: center;
+	padding-left: 0px;
+}
+.trendProductPartItem h6 {
+	color: rgba(24, 20, 20, 0.741);
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0px;
+    width: 150px;
+}
+.trendProductPrice {
+	display: flex;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+  .trendProductHoverPart{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 13%;
+    top: 150px;
+  }
+  .trendProductHoverPart a{
+    padding: 5px 5px;
+    margin: 0;
+    font-size: 14px;
+  }
+  .trendProductHoverPart i{
+    margin: 0;
+    font-size: 12px;
+    padding: 5px 5px;
+  }
+  .trendProductHoverPart {
+  visibility: visible;
+  opacity: 1;
+}
+.trendProductStar{
+    margin-top: 15px;
+}
+  /* trending product part end */
+
+  /* music part start */
+
+  .musicPart{
+    padding: 0;
+  }
+  .musicText {
+  color: black;
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+  text-align: center;
+}
+.btnn{
+    margin: 0 190px;
+}
+.musicText h1{
+    font-size: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-weight: 700;
+}
+.musicText h4{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.headphoneImage{
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 110px;
+}
+  /* music part end */
+
+  /* header part start */
+  #trendProduct{
+    width: 100%;
+  }
+  .bestSellingPrice{
+    padding: 0;
+    padding-right: 10px;
+  }
+.bestSellingPartItem h6 {
+	color: #181414;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0;
+    line-height: 20px;
+}
+.bestSellingPartItem img{
+    width: 90%;
+}
+.bestSellingPartItemPart{
+    gap: 1px;
+}
+.bestSelliingStar i{
+    font-size: 12px;
+}
+.bestSellingHoverPart {
+	visibility: visible;
+	opacity: 1;
+}
+.bestSellingHoverPart a {
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #3c1ff4;
+  font-family: 10px
+}
+  /* header part end */
+
+  /* header part start */
+.Copyright > p {
+	text-align: center;
+    line-height: 20px;
+    padding: 20px 0;
+}
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* common css start */
+  .w50 {
+    width: 50% !important;
+  }
+  .col-es-4 {
+    width: 33%;
+  }
+  .col-es-6 {
+    width: 50%;
+  }
+  /* common css end */
+
+  /* header part start */
+  .mainLogo{
+    width: 100%;
+    text-align: center;
+  }
+.form-control {
+  width: 100%;
+  border: 1px solid #6899f4;
+  padding-left: 60px;
+}
+.search-button {
+  background: #3c1ff4;
+  padding: 17px 30px;
+  color: #ffffff;
+  margin-left: -12px;
+  border-radius: 0;
+}
+.iconPart{
+    text-align: right;
+    margin-top: 10px;
+    width: 100%;
+}
+.navbar-toggler {
+	margin-top: -50px;
+}
+  /* header part end */
+
+  /* banner part start */
+  .bannerText h4 {
+    color: #3c1ff4;
+    font-size: 12px;
+  }
+  .bannerText a {
+    color: #000000;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+  .bannerStar {
+    margin-top: -7px;
+  }
+  .bannerStar i {
+    font-size: 12px;
+  }
+
+  .bannerText h1 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .bannerText {
+    position: absolute;
+    color: black;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 90%;
+    text-align: left;
+  }
+  .carousel-item {
+    height: 280px;
+  }
+  .heading {
+    width: 80%;
+  }
+  /* banner part end */
+
+  /* Categories part start */
+  .categoriesItem svg {
+    width: 80%;
+    height: 100%;
+  }
+  .categoriesItem {
+    padding: 10px 1px;
+  }
+
+  /* Categories part end */
+
+  /* trending product part start */
+  .trendProductPartItemPart {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+  }
+  .trendProductPartItem img{
+    width: 100px;
+  }
+  .trendProductStar {
+	display: flex;
+	align-items: center;
+	padding-left: 0px;
+}
+.trendProductPartItem h6 {
+	color: rgba(24, 20, 20, 0.741);
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0px;
+    width: 150px;
+}
+.trendProductPrice {
+	display: flex;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+  .trendProductHoverPart{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 100px;
+  }
+  .trendProductHoverPart a{
+    padding: 5px 5px;
+    margin: 0;
+    font-size: 10px;
+  }
+  .trendProductHoverPart i{
+    margin: 0;
+    font-size: 10px;
+    padding: 2px 1px;
+  }
+  .trendProductHoverPart {
+  visibility: visible;
+  opacity: 1;
+}
+.trendProductStar{
+    margin-top: 15px;
+}
+  /* trending product part end */
+
+  /* music part start */
+  .musicPart{
+    padding: 0;
+  }
+  .musicText {
+  color: black;
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+  text-align: center;
+}
+.btnn{
+    margin: 0 80px;
+}
+.musicText h1{
+    font-size: 30px;
+    padding: 0;
+    line-height: 30px;
+}
+.musicText h4{
+    font-size: 12px;
+    padding-top: 10px;
+    width: 100%;
+}
+.headphoneImage{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+  /* music part end */
+
+  /* header part start */
+  #trendProduct{
+    width: 100%;
+  }
+  .bestSellingPrice{
+    padding: 0;
+    padding-right: 10px;
+  }
+.bestSellingPartItem h6 {
+	color: #181414;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 0;
+    line-height: 20px;
+}
+.bestSellingPartItem img{
+    width: 90%;
+}
+.bestSellingPartItemPart{
+    gap: 1px;
+}
+.bestSelliingStar i{
+    font-size: 12px;
+}
+.bestSellingHoverPart {
+	visibility: visible;
+	opacity: 1;
+}
+.bestSellingHoverPart a {
+	padding: 5px 5px;
+	text-decoration: none;
+	color: #fff;
+	background: #3c1ff4;
+  font-family: 10px
+}
+  /* header part end */
+
+  /* header part start */
+.Copyright > p {
+	text-align: center;
+    line-height: 20px;
+    padding: 20px 0;
+}
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+
+  /* header part start */
+  /* header part end */
+}

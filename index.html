@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoptronics</title>
+    <!-- google fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google fonts end -->
+    <!-- css file start  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <!-- css file end -->
+  </head>
+  <body>
+    <!-- header part start  -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand mainLogo" href="#"
+            ><img src="images/logo.png" alt="logo.png"
+          /></a>
+          <nav class="navbar m-auto searchInput">
+            <form class="d-flex" role="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn search-button" type="submit">Search</button>
+            </form>
+          </nav>
+          <div class="iconPart ms-auto">
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav bottomMenu">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  ><i class="fa-solid fa-bars-staggered"></i>
+                  Departments
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header part end  -->
+
+    <!-- banner part start  -->
+    <section id="banner">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/slider/layer 1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption bannerText"> 
+              <!-- d-none d-md-block caption hide for smaller device -->
+              <h4>Hot Deal In This Week</h4>
+              <h1>Intelectial Digital Computer</h1>
+              <a class="btn" href="#">Buy Now</a>
+              <div class="bannerStar">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>100 Reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slider/layer 2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption bannerText">
+              <h4>Hot Deal In This Week</h4>
+              <h1 class="heading">Smart Digital Watch</h1>
+              <a class="btn" href="#">Buy Now</a>
+              <!-- <div class="bannerStar">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>100 Reviews</p>
+              </div> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/slider/layer 3.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption bannerText">
+              <h4>Hot Deal In This Week</h4>
+              <h1>Intelectial Digital Computer</h1>
+              <a class="btn" href="#">Buy Now</a>
+              <!-- <div class="bannerStar">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>100 Reviews</p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- banner part end  -->
+
+    <!-- Top Categories part start  -->
+    <section id="categories">
+      <div class="container">
+        <div class="row categoriesText">
+          <h5>Categories</h5>
+          <h3>Top Categories</h3>
+          <div class="categoriesItemPart">
+            <div class="col-es-4 categoriesItem">
+              <svg
+                width="150"
+                height="150"
+                viewBox="0 0 141 141"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_22_2796)">
+                  <path
+                    class="frame"
+                    d="M110.156 138.18H30.8437C29.9669 138.18 29.2574 137.471 29.2574 136.594V4.40626C29.2574 3.52941 29.9669 2.82001 30.8437 2.82001H110.156C111.033 2.82001 111.742 3.52941 111.742 4.40626V136.594C111.742 137.471 111.033 138.18 110.156 138.18ZM32.4299 135.008H108.57V107.336H32.4299V135.008ZM32.4299 104.164H108.57V5.99251H32.4299V104.164ZM74.9062 121.172C74.9062 118.74 72.9322 116.766 70.4999 116.766C68.0677 116.766 66.0937 118.74 66.0937 121.172C66.0937 123.604 68.0677 125.578 70.4999 125.578C72.9322 125.578 74.9062 123.604 74.9062 121.172Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_22_2796">
+                    <rect width="141" height="141" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p>Mobile</p>
+            </div>
+            <div class="col-es-4 categoriesItem">
+              <svg
+                width="150"
+                height="150"
+                viewBox="0 0 107 107"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_8_256)">
+                  <path
+                    class="frame"
+                    d="M0.000488281 0V66.8408H3.34695V70.2328H6.6025V66.8408H100.398V70.2328H103.653V66.8408H107V0H0.000488281ZM103.745 63.5853H3.25604V61.821H103.745V63.5853H103.745ZM103.745 58.5652H3.25604V51.781H103.745V58.5652H103.745ZM103.745 48.5257H3.25604V3.25555H103.745V48.5257H103.745Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M48.4797 53.5455H45.1332V56.801H48.4797V53.5455Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M55.173 53.5455H51.8265V56.801H55.173V53.5455Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M61.8666 53.5455H58.5201V56.801H61.8666V53.5455Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M26.2076 16.1638L23.9056 13.8618L15.5385 22.2288L17.8406 24.5308L26.2076 16.1638Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M39.5918 14.4917L37.2898 12.1897L15.5376 33.942L17.8396 36.244L39.5918 14.4917Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M37.0847 27.0409L34.7827 24.7389L28.9265 30.5951L31.2285 32.8971L37.0847 27.0409Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M32.8983 42.9355L66.3632 9.47058L64.0612 7.16858L30.5963 40.6334L32.8983 42.9355Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M59.6719 29.5526L69.7117 19.5128L67.4097 17.2108L57.3699 27.2506L59.6719 29.5526Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M59.0388 40.6373L61.3408 42.9393L67.197 37.0831L64.895 34.7811L59.0388 40.6373Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M98.9957 16.9979L96.6937 14.6959L70.758 40.6316L73.06 42.9336L98.9957 16.9979Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M0.000213623 107H73.5341V73.6251H0.000213623V107ZM3.25577 76.8806H70.2786V103.744H3.25577V76.8806Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M11.6678 81.9905H8.32132V85.246H11.6678V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M18.3613 81.9905H15.0149V85.246H18.3613V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M25.0547 81.9905H21.7082V85.246H25.0547V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M31.7459 81.9905H28.3994V85.246H31.7459V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M38.4394 81.9905H35.093V85.246H38.4394V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M45.133 81.9905H41.7866V85.246H45.133V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M51.8263 81.9905H48.4799V85.246H51.8263V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M58.5199 81.9905H55.1734V85.246H58.5199V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M65.2133 81.9905H61.8668V85.246H65.2133V81.9905Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M11.6678 88.684H8.32132V91.9396H11.6678V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M18.3613 88.684H15.0149V91.9396H18.3613V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M25.0547 88.684H21.7082V91.9396H25.0547V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M31.7459 88.684H28.3994V91.9396H31.7459V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M38.4394 88.684H35.093V91.9396H38.4394V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M45.133 88.684H41.7866V91.9396H45.133V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M51.8263 88.684H48.4799V91.9396H51.8263V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M58.5199 88.684H55.1734V91.9396H58.5199V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M65.2133 88.684H61.8668V91.9396H65.2133V88.684Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M11.6678 95.3774H8.32132V98.6329H11.6678V95.3774Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M18.3613 95.3774H15.0149V98.6329H18.3613V95.3774Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M58.5199 95.3774H55.1734V98.6329H58.5199V95.3774Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M65.2133 95.3774H61.8668V98.6329H65.2133V95.3774Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M51.8265 95.3774H21.7082V98.6329H51.8265V95.3774Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M93.6591 80.3182C89.0709 80.3182 85.338 84.0511 85.338 88.6393V98.6791C85.338 103.267 89.0709 107 93.6591 107C98.2473 107 101.98 103.267 101.98 98.6791V88.6393C101.98 84.0511 98.2471 80.3182 93.6591 80.3182ZM98.7245 98.6787C98.7245 101.472 96.4522 103.744 93.6591 103.744C90.866 103.744 88.5937 101.472 88.5937 98.6787V88.6389C88.5937 85.8458 90.8662 83.5735 93.6591 83.5735C96.4522 83.5735 98.7245 85.8458 98.7245 88.6389V98.6787Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M95.2863 86.9649H92.0307V90.3116H95.2863V86.9649Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_8_256">
+                    <rect width="107" height="107" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p>Mobile</p>
+            </div>
+            <div class="col-es-4 categoriesItem">
+              <svg
+                width="150"
+                height="150"
+                viewBox="0 0 168 168"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="frame"
+                  d="M122.858 126.864C122.855 126.864 122.855 126.864 122.858 126.864C121.404 126.861 120.23 125.685 120.233 124.236L120.236 123.265C120.243 117.631 120.275 97.1617 120.233 92.5916C120.22 91.1426 121.383 89.9561 122.834 89.943C122.842 89.943 122.85 89.943 122.858 89.943C124.299 89.943 125.47 91.1006 125.483 92.5444C125.525 97.1197 125.493 117.631 125.486 123.27L125.483 124.239C125.48 125.69 124.304 126.864 122.858 126.864Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M120.207 127.024C114.573 127.024 107.993 125.128 103.806 119.7C101.96 117.314 101.118 113.775 100.905 112.749C100.146 109.108 100.241 103.165 101.711 99.519C102.393 97.8259 103.436 96.1747 104.903 94.4606C109.365 89.2474 116.127 89.2946 121.572 89.3209L122.882 89.3261C124.333 89.3261 125.507 90.4995 125.507 91.9511C125.507 93.4027 124.333 94.5761 122.882 94.5761L121.538 94.5709C116.755 94.5499 111.77 94.5131 108.893 97.8757C107.804 99.1462 107.048 100.327 106.583 101.482C105.549 104.044 105.47 108.911 106.047 111.678C106.444 113.592 107.216 115.526 107.964 116.492C111.573 121.167 118.052 122.186 122.54 121.637C123.95 121.432 125.289 122.48 125.465 123.921C125.643 125.359 124.622 126.669 123.181 126.845C122.233 126.961 121.238 127.024 120.207 127.024Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M124.737 120.963C123.656 120.963 122.64 120.288 122.262 119.209C121.779 117.842 122.498 116.343 123.866 115.862C125.212 115.387 126.499 114.902 127.415 114.169C129.329 112.636 129.733 110.221 129.733 108.462C129.733 102.75 126.869 101.501 124.375 101.052C122.95 100.792 122.002 99.4298 122.257 98.0018C122.517 96.5764 123.855 95.6288 125.307 95.8834C131.547 97.0095 134.983 101.477 134.983 108.462C134.983 112.573 133.46 116.059 130.693 118.269C129.134 119.514 127.328 120.207 125.609 120.813C125.32 120.915 125.026 120.963 124.737 120.963Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M45.1421 127.1C43.6931 127.1 42.5197 125.929 42.5171 124.478L42.5145 123.509C42.5066 117.87 42.4751 97.3586 42.5171 92.7833C42.5302 91.3395 43.7036 90.1819 45.1421 90.1819C45.15 90.1819 45.1578 90.1819 45.1657 90.1819C46.6173 90.195 47.7802 91.3815 47.7671 92.8305C47.7251 97.398 47.7566 117.87 47.7645 123.504L47.7671 124.475C47.7697 125.921 46.5963 127.097 45.1421 127.1Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M47.7933 127.257C46.7617 127.257 45.7668 127.197 44.8218 127.079C43.3807 126.903 42.3596 125.593 42.5381 124.155C42.714 122.716 44.0606 121.679 45.4623 121.871C49.9537 122.42 56.4322 121.406 60.0363 116.731C60.7871 115.76 61.5588 113.825 61.9578 111.912C62.5327 109.145 62.4513 104.278 61.4197 101.716C60.9551 100.561 60.1991 99.3799 59.1097 98.1094C56.2301 94.7468 51.2426 94.7809 46.4651 94.8045L45.1211 94.8098C43.6695 94.8098 42.4961 93.6364 42.4961 92.1848C42.4961 90.7331 43.6695 89.5598 45.1211 89.5598L46.431 89.5545C51.8752 89.5283 58.6346 89.481 63.0997 94.6943C64.5671 96.4058 65.6092 98.0595 66.2917 99.7526C67.7617 103.399 67.8562 109.342 67.1002 112.983C66.885 114.012 66.0423 117.548 64.1943 119.939C60.0075 125.365 53.4266 127.257 47.7933 127.257Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M43.2627 121.199C42.9739 121.199 42.6773 121.149 42.3911 121.049C40.6744 120.445 38.8658 119.75 37.3091 118.506C34.5398 116.293 33.0173 112.809 33.0173 108.699C33.0173 101.714 36.4534 97.2458 42.693 96.1196C44.142 95.8598 45.4834 96.8126 45.7433 98.238C46.0005 99.666 45.0503 101.028 43.6249 101.288C41.1311 101.737 38.2673 102.987 38.2673 108.699C38.2673 110.457 38.6689 112.872 40.5878 114.405C41.5013 115.135 42.7875 115.623 44.1341 116.099C45.5018 116.582 46.221 118.08 45.738 119.445C45.36 120.524 44.3468 121.199 43.2627 121.199Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M122.879 96.1984C122.868 96.1984 122.858 96.1984 122.845 96.1984C121.396 96.18 120.236 94.9909 120.254 93.5393C120.309 89.0243 120.152 84.1208 119.779 78.9626C118.716 64.323 110.883 53.823 97.1302 48.5966C84.2625 43.7089 68.6359 45.7958 59.1386 53.6681C56.8654 55.5529 53.823 58.5375 52.0931 61.2649C47.8328 67.9928 47.7881 84.5014 47.7724 91.5495L47.7671 92.8174C47.7593 94.2638 46.5859 95.4293 45.1421 95.4293C45.1369 95.4293 45.1343 95.4293 45.129 95.4293C43.6774 95.4214 42.5093 94.2401 42.5171 92.7911L42.5224 91.5338C42.5434 83.3963 42.588 66.4624 47.6595 58.4535C50.2451 54.3716 54.5344 50.6651 55.7865 49.6283C66.6698 40.6035 84.4384 38.157 98.9966 43.6905C114.797 49.6939 123.792 61.761 125.013 78.5846C125.396 83.8898 125.562 88.9429 125.504 93.6075C125.486 95.046 124.312 96.1984 122.879 96.1984Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+              </svg>
+              <p>Mobile</p>
+            </div>
+            <div class="col-es-4 categoriesItem">
+              <svg
+                width="150"
+                height="150"
+                viewBox="0 0 119 119"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="frame"
+                  d="M101.539 0H17.4608C12.2114 0 7.94067 4.27068 7.94067 9.52009V109.48C7.94067 114.729 12.2114 119 17.4608 119H101.539C106.789 119 111.06 114.729 111.06 109.48V9.52009C111.059 4.27068 106.789 0 101.539 0ZM106.299 109.48C106.299 112.105 104.164 114.24 101.539 114.24H17.4608C14.8355 114.24 12.7008 112.105 12.7008 109.48V9.52009C12.7008 6.89478 14.8357 4.76016 17.4608 4.76016H101.539C104.165 4.76016 106.299 6.89502 106.299 9.52009V109.48H106.299Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M59.5 41.1096C41.5106 41.1096 26.875 55.7451 26.875 73.7358C26.875 91.7264 41.5106 106.362 59.5 106.362C77.4906 106.362 92.1262 91.7264 92.1262 73.7358C92.1262 55.7451 77.4906 41.1096 59.5 41.1096ZM59.5 101.602C44.1347 101.602 31.6349 89.1013 31.6349 73.7358C31.6349 58.3702 44.1347 45.8695 59.5 45.8695C74.8653 45.8695 87.3663 58.3702 87.3663 73.7358C87.3663 89.1013 74.8653 101.602 59.5 101.602Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M59.5012 64.3228C54.3101 64.3228 50.0858 68.5458 50.0858 73.7358C50.0858 78.9257 54.3101 83.1488 59.5012 83.1488C64.6912 83.1488 68.9142 78.9257 68.9142 73.7358C68.9142 68.5458 64.6912 64.3228 59.5012 64.3228ZM59.5012 78.3888C56.9342 78.3888 54.8457 76.3016 54.8457 73.7358C54.8457 71.1699 56.9339 69.0827 59.5012 69.0827C62.0671 69.0827 64.1543 71.1699 64.1543 73.7358C64.1543 76.3016 62.0671 78.3888 59.5012 78.3888Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+                <path
+                  class="frame"
+                  d="M43.6336 11.8942V26.5704H75.3674V11.8942H43.6336ZM70.6075 21.8105H48.3938V16.6541H70.6075V21.8105Z"
+                  fill="black"
+                  fill-opacity="0.7"
+                />
+              </svg>
+
+              <p>Mobile</p>
+            </div>
+            <div class="col-es-4 categoriesItem">
+              <svg
+                width="150"
+                height="150"
+                viewBox="0 0 122 122"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_13_1595)">
+                  <path
+                    class="frame"
+                    d="M36.6043 11.0029C23.455 11.0029 12.7573 21.7008 12.7573 34.8501C12.7573 47.9994 23.4552 58.6971 36.6043 58.6971C49.7537 58.6971 60.4516 47.9994 60.4516 34.8501C60.452 21.7008 49.7544 11.0029 36.6043 11.0029ZM36.6043 55.0566C25.4623 55.0566 16.3978 45.9919 16.3978 34.8501C16.3978 23.7081 25.4625 14.6433 36.6043 14.6433C47.7464 14.6433 56.8111 23.7081 56.8111 34.8501C56.8111 45.9919 47.7464 55.0566 36.6043 55.0566Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M36.6043 21.3937C29.1845 21.3937 23.1476 27.4305 23.1476 34.8504C23.1476 42.2703 29.1845 48.3069 36.6043 48.3069C44.0244 48.3069 50.061 42.2705 50.061 34.8504C50.061 27.4303 44.0244 21.3937 36.6043 21.3937ZM26.8922 36.2672C26.825 35.8045 26.7885 35.3313 26.7885 34.8502C26.7885 29.4376 31.1922 25.0341 36.6048 25.0341C37.0861 25.0341 37.5589 25.0706 38.0218 25.1378L26.8922 36.2672ZM28.2742 40.034L41.7881 26.5198C43.2791 27.4508 44.5019 28.7702 45.3166 30.3357L32.0901 43.5622C30.5248 42.7475 29.2052 41.5247 28.2742 40.034ZM36.6043 44.6662C36.4506 44.6662 36.2981 44.6616 36.1459 44.6545L46.4089 34.3915C46.416 34.5437 46.4206 34.6962 46.4206 34.8502C46.4208 40.2627 42.0171 44.6662 36.6043 44.6662Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M28.2061 95.3258C24.1837 95.3258 20.9114 98.5981 20.9114 102.621C20.9114 106.643 24.1837 109.915 28.2061 109.915C32.2281 109.915 35.5006 106.643 35.5006 102.621C35.5009 98.5981 32.2288 95.3258 28.2061 95.3258ZM28.2061 106.274C26.1912 106.274 24.5521 104.635 24.5521 102.62C24.5521 100.605 26.1912 98.9663 28.2061 98.9663C30.2208 98.9663 31.8599 100.605 31.8599 102.62C31.8599 104.635 30.221 106.274 28.2061 106.274Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M48.919 73.9581H24.3817C22.4683 73.9581 20.9116 75.5148 20.9116 77.4282V84.2216C20.9116 86.135 22.4683 87.6917 24.3817 87.6917H48.9185C50.8319 87.6917 52.3886 86.135 52.3886 84.2216V77.4282C52.3886 75.5148 50.8322 73.9581 48.919 73.9581ZM48.7484 84.0513H24.5523V77.5986H48.7484V84.0513Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <g filter="url(#filter0_d_13_1595)">
+                    <path
+                      class="frame"
+                      d="M114.462 6.81605H86.0538C85.0485 6.81605 84.2336 7.63073 84.2336 8.63628C84.2336 9.64183 85.0485 10.4565 86.0538 10.4565H114.462C115.644 10.4565 116.605 11.4182 116.605 12.5999V66.3998C116.605 67.5815 115.644 68.5432 114.462 68.5432H62.8288V58.8418C62.8288 58.5403 62.7542 58.2565 62.6245 58.0061C68.1136 51.8451 71.4545 43.7311 71.4545 34.8499C71.4545 25.361 67.6406 16.7472 61.4679 10.4563H72.341C73.3463 10.4563 74.1612 9.64159 74.1612 8.63604C74.1612 7.6305 73.3463 6.81581 72.341 6.81581H57.7536C57.6137 6.81581 57.4784 6.83297 57.3476 6.86299C51.5483 2.55343 44.3691 0 36.6044 0C17.3884 0 1.75452 15.6337 1.75452 34.8501C1.75452 43.7311 5.09546 51.8453 10.5845 58.0063C10.4547 58.2568 10.3803 58.5406 10.3803 58.842V113.352C10.3803 118.121 14.2598 122 19.0283 122H54.1805C58.9493 122 62.8285 118.121 62.8285 113.352V72.1839H114.462C117.651 72.1839 120.245 69.5895 120.245 66.4001V12.5999C120.246 9.41046 117.651 6.81605 114.462 6.81605ZM59.1888 113.352H59.1885C59.1885 116.113 56.942 118.36 54.181 118.36H19.0285C16.2675 118.36 14.021 116.113 14.021 113.352V61.3697C20.1079 66.5611 27.996 69.7003 36.6046 69.7003C45.2131 69.7003 53.1011 66.5611 59.1885 61.3697V113.352H59.1888ZM36.6044 66.0596C19.3952 66.0596 5.39499 52.0591 5.39499 34.8501C5.39499 17.6412 19.3959 3.64047 36.6044 3.64047C53.8129 3.64047 67.8138 17.6412 67.8138 34.8501C67.8138 52.0591 53.8138 66.0596 36.6044 66.0596Z"
+                      fill="black"
+                      fill-opacity="0.7"
+                    />
+                  </g>
+                  <path
+                    class="frame"
+                    d="M104.378 28.8461H83.8839C82.8786 28.8461 82.0637 29.6608 82.0637 30.6664C82.0637 31.6719 82.8786 32.4866 83.8839 32.4866H104.378C105.383 32.4866 106.198 31.6719 106.198 30.6664C106.198 29.6611 105.383 28.8461 104.378 28.8461Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                  <path
+                    class="frame"
+                    d="M104.378 37.6797H83.8839C82.8786 37.6797 82.0637 38.4944 82.0637 39.5C82.0637 40.5055 82.8786 41.3202 83.8839 41.3202H104.378C105.383 41.3202 106.198 40.5055 106.198 39.5C106.198 38.4944 105.383 37.6797 104.378 37.6797Z"
+                    fill="black"
+                    fill-opacity="0.7"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_13_1595"
+                    x="-2.24548"
+                    y="0"
+                    width="126.491"
+                    height="130"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_13_1595"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_13_1595"
+                      result="shape"
+                    />
+                  </filter>
+                  <clipPath id="clip0_13_1595">
+                    <rect width="122" height="122" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <p>Mobile</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Top Categories part end  -->
+
+    <!-- Trending Products start -->
+    <section id="trendProduct">
+      <div class="trendProductPart container categoriesText">
+        <h5 class="sub-heading">Categories</h5>
+        <h3 class="heading">Trending Products</h3>
+        <div class="trendProductPartItemPart">
+          <div class="trendProductPartItem HoverOne">
+            <div class="trendProductHoverPart">
+              <i class="fa fa-eye-slash"></i>
+              <a href="#">Add to Cart</a>
+              <i class="fa fa-heart"></i>
+            </div>
+            <img src="assets/img/trendproduct1.png" alt="trendproduct1.png" />
+            <div class="trendProductStar">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+              <p>(96)</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="trendProductPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+            </div>
+          </div>
+          <div class="trendProductPartItem HoverTwo">
+            <div class="trendProductHoverPart">
+              <i class="fa fa-eye-slash"></i>
+              <a href="#">Add to Cart</a>
+              <i class="fa fa-heart"></i>
+            </div>
+            <img src="assets/img/trendproduct1.png" alt="trendproduct1.png" />
+            <div class="trendProductStar">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+              <p>(96)</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="trendProductPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+            </div>
+          </div>
+          <div class="trendProductPartItem HoverThree">
+            <div class="trendProductHoverPart">
+              <i class="fa fa-eye-slash"></i>
+              <a href="#">Add to Cart</a>
+              <i class="fa fa-heart"></i>
+            </div>
+            <img src="assets/img/trendproduct1.png" alt="trendproduct1.png" />
+            <div class="trendProductStar">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+              <p>(96)</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="trendProductPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+            </div>
+          </div>
+          <div class="trendProductPartItem HoverFour">
+            <div class="trendProductHoverPart">
+              <i class="fa fa-eye-slash"></i>
+              <a href="#">Add to Cart</a>
+              <i class="fa fa-heart"></i>
+            </div>
+            <img src="assets/img/trendproduct1.png" alt="trendproduct1.png" />
+            <div class="trendProductStar">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+              <p>(96)</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="trendProductPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+            </div>
+          </div>
+          <div class="trendProductPartItem HoverFive">
+            <div class="trendProductHoverPart">
+              <i class="fa fa-eye-slash"></i>
+              <a href="#">Add to Cart</a>
+              <i class="fa fa-heart"></i>
+            </div>
+            <img src="assets/img/trendproduct1.png" alt="trendproduct1.png" />
+            <div class="trendProductStar">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+              <p>(96)</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="trendProductPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trending Products end -->
+
+    <!--  Music Experience part start  -->
+    <section id="music">
+      <div class="container musicPart">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="musicText">
+               <h4>Enhance Your Music Experience</h4>
+              <h1>Enhance Your Music Experience</h1>
+              <a class="btnn" href="#">Check it Out!</a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img class="headphoneImage" src="images/headphone.png" alt="headphone.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  Music Experience part end  -->
+
+ <!-- Trending Products start -->
+    <section id="trendProduct">
+      <div class="trendProductPart container categoriesText">
+        <h5>Categories</h5>
+          <h3>Top Categories</h3>
+        <div class="bestSellingPartItemPart">
+          <div class="bestSellingPartItem HoverOne">
+            <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+            <div class="trendProductStar">
+              <p>Head Phone</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="bestSellingPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+              <div class="bestSelliingStar">
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star-half"></i>
+              </div>
+              <p>(96)</p>
+            </div>
+            <div class="bestSellingHoverPart">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+            </div>
+          </div>
+          <div class="bestSellingPartItem HoverTwo">
+            <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+            <div class="trendProductStar">
+              <p>Head Phone</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="bestSellingPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+              <div class="bestSelliingStar">
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star-half"></i>
+              </div>
+              <p>(96)</p>
+            </div>
+            <div class="bestSellingHoverPart">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+            </div>
+          </div>
+          <div class="bestSellingPartItem HoverThree">
+            <img src="assets/img/Group 175.jpg" alt="Group 175.jpg" />
+            <div class="trendProductStar">
+              <p>Head Phone</p>
+            </div>
+            <h6>Smart Digital Watch</h6>
+            <div class="bestSellingPrice">
+              <h5>$29.99</h5>
+              <h5><del>$29.99</del></h5>
+              <div class="bestSelliingStar">
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star"></i>
+                <i style="color: #ffb000" class="fa fa-star-half"></i>
+              </div>
+              <p>(96)</p>
+            </div>
+            <div class="bestSellingHoverPart">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trending Products end -->
+
+    <!-- logo part start  -->
+     <section id="logo">
+      <div class="container">
+        <div class="row logoPart">
+          <div class="col-lg-3 logoPartItem">
+            <img src="assets/img/BasicSel.png" alt="">
+          </div>
+          <div class="col-lg-3 logoPartItem">
+            <img src="assets/img/IconFic.png" alt="">
+          </div>
+          <div class="col-lg-3 logoPartItem">
+            <img src="assets/img/LeyaK.png" alt="">
+          </div>
+          <div class="col-lg-3 logoPartItem">
+            <img src="assets/img/Meta.png" alt="">
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- logo part end  -->
+
+<!-- footer  start -->
+    <footer id="footer">
+      <div class="container Copyright">
+        <div class="footerPart row">
+        <div class="footerPartItem col-lg-3">
+          <h2>Shop<span>tronics</span></h2>
+          <p>
+            Elegant pink origami design three dimensional view and decoration
+            co-exist. Great for adding a decorative touch to any room’s decor.
+          </p>
+        </div>
+        <div class="footerPartItem col-lg-3">
+          <h3>Information</span></h3>
+          <h6>
+            Custom Service <br>FAQs <br>Ordering Tracking <br>Contacts <br>Events
+          </h6>
+        </div>
+        <div class="footerPartItem col-lg-3">
+          <h3>Information</span></h3>
+          <h6>
+            Custom Service <br>
+            FAQs <br>
+            Ordering Tracking <br>
+            Contacts <br>
+            Events
+          </h6>
+        </div>
+        <div class="footerPartItem col-lg-3">
+          <h3>Information</span></h3>
+         <p>Get on the list and get 10% off <br> your first order!</p>
+         <form action="#">
+          <input class="email" type="email" placeholder="Your Email">
+          <input class="button" type="button" value="Subscribe Now">
+         </form>
+        </div>
+      </div>
+      <p>Copyright 2025 ©Ninja. All rights reserved. Powered by Ninja.</p>
+      </div>
+    </footer>
+    <!-- footer  end -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- header part start  -->
+    <!-- header part end  -->
+
+    <!-- js file start  -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- js file end  -->
+  </body>
+</html>
